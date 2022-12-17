@@ -7,8 +7,10 @@
 */
 
 function capitalize(str) {
-    // Напишите код здесь
+    return str = str.split(' ').map((item) => {return item.substring(0, 1).toUpperCase() + item.slice(1)}).join(' ');
+
 }
+
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
